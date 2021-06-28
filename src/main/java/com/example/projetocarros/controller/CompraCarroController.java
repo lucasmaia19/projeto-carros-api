@@ -98,7 +98,7 @@ public class CompraCarroController {
 //				System.out.println("data futura invalido");
 
 //				throw new Exception();
-				throw new InvalidAlgorithmParameterException("Data futura invalido");
+				throw new InvalidAlgorithmParameterException("Data futura INVALIDA");
 			} else {
 
 			}
