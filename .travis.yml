@@ -4,9 +4,8 @@ jdk:
 - oraclejdk8
 before_install:
 - export TZ=Brazil/East
-- chmod +x build.sh
 deploy:
   provider: heroku
   api_key:
-    - secure: $SECURE_KEY
-  app: $APP
+    secure: RR6LiiqgcgiCjPleyUQhm8rlusTxsroKgNA3UFC0PFuFT+bjHllM97rVfPScI2fwyTmYuhmrRYR0IO7BRGcs+tVXe9xAL1yIwR78hPRWHZU60nBgOFh0bZ51YewFH3+7/5pt5OQyA+1qbvdQnfp+jy4Nsi4U6Az6AFUbCRWWuWTWeba6h0eKJg9LBGVQtwHiLnqSz9DmHraF3fofHUKc2w6f9hvQE5UF7c6l9kZpV9N2y/gkJQ51HLvBUbwYn0DBaedash+cl/qKIjbb9yUu27WlkoZr3tJkOtcMbheZizvoYYNQbsbRYxAqkhqbS8HcTJPqziOo9vePKNBmDQMa45thI4lXde3aJnquMafVQHFigyL0CDoSNDDHITynyyjY3jmNDmiFFs09GL/bngjzp19TbQjkJ7xumf1590bW89C23boG10ECL5iwAh0XXsvs5lCht4V9eDLUjIsjqRfxRSfPQwZ/o0Lf/20eN0GQao2n0ANEluiGqYsHEF7mll05MTJ47MjZ/vJam1JAoBdfQ8FqghfD0zqYPQQ+SNDdsFOS3O19SiiWUsJ819d4BhmNtF8ql1JMSSfjmKt5IGDg4AYa4F99c5M98Pe9yuCE0zglfQntC8+wtwBo+woRswGt3qMH2Bi7mmBZYA0nOFaIXBx6anhob9ES6Q1m9a5LpII=
+  app: "$APP"
